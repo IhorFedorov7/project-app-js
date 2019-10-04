@@ -1,3 +1,27 @@
+let btnStart = document.querySelector('#start'),
+    savingsI = document.querySelector('#savings'),
+    budgetV = document.querySelectorAll('.budget-value')[0],
+    daybudgetV = document.querySelectorAll('.daybudget-value')[0],
+    levelV = document.querySelectorAll('.level-value')[0],
+    expensesV = document.querySelectorAll('.expenses-value')[0],
+    optionalExpensesV = document.querySelectorAll('.optionalexpenses-value')[0],
+    incomeV = document.querySelectorAll('.income-value')[0],
+    monthSavingsV = document.querySelectorAll('.monthsavings-value')[0],
+    yearSavingsV = document.querySelectorAll('.yearsavings-value')[0],
+    yearI = document.querySelector('.year-value'),
+    monthI = document.querySelector('.month-value'),
+    dayI = document.querySelector('.day-value'),
+    expensesI = document.querySelectorAll('.expenses-item'),
+    expensesBrn = document.querySelectorAll('button')[0],
+    optionalBtn = document.querySelectorAll('button')[1],
+    countBtn = document.querySelectorAll('button')[2],
+    optionalExpensesI = document.querySelectorAll('.optionalexpenses-item'),
+    chooseIncome = document.querySelector('.choose-income'),
+    chooseSum = document.querySelector('.choose-sum'),
+    choosePercent = document.querySelector('.choose-percent');
+
+
+
 let money, time;
 
 function start() {
